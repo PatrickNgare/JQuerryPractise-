@@ -12,7 +12,7 @@ $(document).ready(function() {
     });
     orderedLists.sort();
     orderedLists.forEach(function(list){
-      $(".list").append(list);
+      $(".list").append("<li>"+list+"</li>");
     });
 
 //
