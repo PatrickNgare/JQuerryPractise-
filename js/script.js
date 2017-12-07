@@ -1,16 +1,8 @@
 $(document).ready(function() {
-       $("button#green").click(function() {
-         $("body").removeClass();
-         $("body").addClass("green-background");
-       });
+      var age = parseInt(prompt("How old are you?"));
 
-       $("button#yellow").click(function() {
-         $("body").removeClass();
-         $("body").addClass("yellow-background");
-       });
-
-       $("button#red").click(function() {
-         $("body").removeClass();
-         $("body").addClass("red-background");
-       });
-     });
+      if (age >= 21) {
+        $('#drinks').show();
+      }
+    });
+  
